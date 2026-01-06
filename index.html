@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Türkiye Koşu Takvimi 2026 | Yol & Trail Yarışları</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🏃‍♂️ Türkiye Koşu Takvimi</h1>
+                    <p class="subtitle">2026 Yol & Trail Yarışları</p>
+                </div>
+                <nav class="nav">
+                    <a href="#anasayfa">Ana Sayfa</a>
+                    <a href="#yol-kosusu">Yol Koşuları</a>
+                    <a href="#trail">Trail</a>
+                    <a href="#tavsiyeler">Antrenör Tavsiyeleri</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Türkiye'nin En Kapsamlı Koşu Takvimi</h2>
+                <p class="hero-description">2026 yılında düzenlenecek tüm yol koşuları ve trail yarışlarını keşfedin. Hedeflerinizi belirleyin, kayıt olun ve rekorlarınızı kırın!</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">80+</div>
+                        <div class="stat-label">Yarış</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Şehir</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-label">Mesafe Seçeneği</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <h3>Yarış Ara</h3>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label>Yarış Tipi</label>
+                        <div class="race-type-toggle">
+                            <button class="toggle-btn active" data-type="all">Tümü</button>
+                            <button class="toggle-btn" data-type="yol">🛣️ Yol Koşusu</button>
+                            <button class="toggle-btn" data-type="trail">🌲 Trail</button>
+                        </div>
+                    </div>
+                    
+                    <div class="filter-row">
+                        <div class="filter-group">
+                            <label for="month-filter">Ay</label>
+                            <select id="month-filter">
+                                <option value="all">Tüm Aylar</option>
+                                <option value="01">Ocak</option>
+                                <option value="02">Şubat</option>
+                                <option value="03">Mart</option>
+                                <option value="04">Nisan</option>
+                                <option value="05">Mayıs</option>
+                                <option value="06">Haziran</option>
+                                <option value="07">Temmuz</option>
+                                <option value="08">Ağustos</option>
+                                <option value="09">Eylül</option>
+                                <option value="10">Ekim</option>
+                                <option value="11">Kasım</option>
+                                <option value="12">Aralık</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="city-filter">Şehir</label>
+                            <select id="city-filter">
+                                <option value="all">Tüm Şehirler</option>
+                                <option value="Adana">Adana</option>
+                                <option value="Aksaray">Aksaray</option>
+                                <option value="Ankara">Ankara</option>
+                                <option value="Antalya">Antalya</option>
+                                <option value="Balıkesir">Balıkesir</option>
+                                <option value="Bursa">Bursa</option>
+                                <option value="Çanakkale">Çanakkale</option>
+                                <option value="Erzurum">Erzurum</option>
+                                <option value="Gaziantep">Gaziantep</option>
+                                <option value="İstanbul">İstanbul</option>
+                                <option value="İzmir">İzmir</option>
+                                <option value="Isparta">Isparta</option>
+                                <option value="Kocaeli">Kocaeli</option>
+                                <option value="Konya">Konya</option>
+                                <option value="Mardin">Mardin</option>
+                                <option value="Muğla">Muğla</option>
+                                <option value="Nevşehir">Nevşehir</option>
+                                <option value="Sakarya">Sakarya</option>
+                                <option value="Trabzon">Trabzon</option>
+                                <option value="Uşak">Uşak</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="distance-filter">Mesafe</label>
+                            <select id="distance-filter">
+                                <option value="all">Tüm Mesafeler</option>
+                                <option value="5K">5K</option>
+                                <option value="10K">10K</option>
+                                <option value="21K">Yarı Maraton (21K)</option>
+                                <option value="42K">Maraton (42K)</option>
+                                <option value="ultra">Ultra (42K+)</option>
+                            </select>
+                        </div>
+
+                        <div class="filter-group">
+                            <label for="search-filter">Arama</label>
+                            <input type="text" id="search-filter" placeholder="Yarış adı ara...">
+                        </div>
+                    </div>
+
+                    <button class="reset-btn" onclick="resetFilters()">Filtreleri Temizle</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Races Section -->
+    <section class="races-section" id="yarislar">
+        <div class="container">
+            <div class="section-header">
+                <h2>2026 Yarışları</h2>
+                <p class="results-count">Toplam <span id="total-races">0</span> yarış bulundu</p>
+            </div>
+            
+            <div id="races-container" class="races-grid">
+                <!-- Races will be inserted here by JavaScript -->
+            </div>
+
+            <div id="no-results" class="no-results" style="display: none;">
+                <p>😕 Aradığınız kriterlere uygun yarış bulunamadı.</p>
+                <button onclick="resetFilters()">Filtreleri Temizle</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section class="tips-section" id="tavsiyeler">
+        <div class="container">
+            <h2>Antrenör Tavsiyeleri</h2>
+            <div class="tips-grid">
+                <div class="tip-card road">
+                    <div class="tip-icon">🛣️</div>
+                    <h3>Yol Koşuları İçin</h3>
+                    <ul>
+                        <li>Düz parkurlarda tempo koşuları yapın</li>
+                        <li>Interval antrenmanlarına önem verin</li>
+                        <li>Haftalık 4-5 antrenman planı oluşturun</li>
+                        <li>Pace kontrolü çalışın</li>
+                        <li>Asfalt zeminlere alışık ayakkabı kullanın</li>
+                    </ul>
+                </div>
+
+                <div class="tip-card trail">
+                    <div class="tip-icon">🏔️</div>
+                    <h3>Trail Koşuları İçin</h3>
+                    <ul>
+                        <li>Dağ/tepe antrenmanları yapın</li>
+                        <li>Teknik iniş-çıkış pratiği yapın</li>
+                        <li>Kuvvet antrenmanlarına öncelik verin</li>
+                        <li>Navigasyon becerisi geliştirin</li>
+                        <li>Trail ayakkabısı kullanın</li>
+                    </ul>
+                </div>
+
+                <div class="tip-card planning">
+                    <div class="tip-icon">📅</div>
+                    <h3>Planlama</h3>
+                    <ul>
+                        <li>Hedef yarışınızı 3-4 ay önceden belirleyin</li>
+                        <li>Küçük mesafelerden başlayın</li>
+                        <li>Yılda 4-6 yarış hedefleyin</li>
+                        <li>Yarışlar arası dinlenme planı yapın</li>
+                        <li>Erken kayıt avantajlarından yararlanın</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Türkiye Koşu Takvimi</h4>
+                    <p>2026 yılının en kapsamlı koşu takvimi. Tüm yol koşuları ve trail yarışları tek platformda.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Hızlı Linkler</h4>
+                    <ul>
+                        <li><a href="#anasayfa">Ana Sayfa</a></li>
+                        <li><a href="#yarislar">Yarışlar</a></li>
+                        <li><a href="#tavsiyeler">Antrenör Tavsiyeleri</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Kaynaklar</h4>
+                    <ul>
+                        <li><a href="https://blog.sporbilet.com/tr/takvim" target="_blank">Sporbilet</a></li>
+                        <li><a href="https://teamrunbo.com/yaristakvimimiz/" target="_blank">TeamRunBo</a></li>
+                        <li><a href="https://apphurra.com/takvim" target="_blank">Hurra</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Türkiye Koşu Takvimi. Son güncelleme: 6 Ocak 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="races-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

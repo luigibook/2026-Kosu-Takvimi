@@ -2,6 +2,8 @@
 
 ## Türkiye'nin En Kapsamlı Yol ve Trail Koşu Takvimi
 
+**Hazırlayan: Ümit Emre Erdoğan** - Spor Antrenörü
+
 Bu proje, 2026 yılında Türkiye genelinde düzenlenecek **tüm yol koşuları** ve **trail yarışlarını** tek bir platformda toplayan modern, kullanıcı dostu bir web uygulamasıdır.
 
 ---
@@ -198,6 +200,13 @@ En çok yarış düzenlenen şehirler:
 
 ---
 
+## 👨‍💻 Geliştirici
+
+**Ümit Emre Erdoğan**
+- Spor Antrenörü
+- Koşu Tutkunu
+- Web Developer
+
 ## 🤝 Katkıda Bulunma
 
 Bu proje sürekli güncellenmektedir. Yeni yarış eklemek veya bilgi güncellemesi yapmak için:
@@ -243,6 +252,11 @@ Bu proje eğitim ve bilgilendirme amaçlıdır. Tüm yarış isimleri ve bilgile
 ## 🏆 Teşekkürler
 
 Bu takvimi oluşturmamda yardımcı olan tüm kaynaklara ve Türkiye koşu camiasına teşekkürler!
+
+### Hazırlayan
+**Ümit Emre Erdoğan**  
+Spor Antrenörü & Koşu Tutkunu  
+© 2026
 
 ---
 

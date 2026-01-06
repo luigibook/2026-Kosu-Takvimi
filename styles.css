@@ -96,8 +96,16 @@ body {
 .hero-description {
     font-size: 20px;
     max-width: 700px;
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
     opacity: 0.95;
+}
+
+.hero-author {
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    font-style: italic;
 }
 
 .hero-stats {
@@ -402,6 +410,46 @@ body {
     color: white;
     border-radius: 4px;
     font-size: 12px;
+    font-weight: 600;
+}
+
+/* Race Website Button */
+.race-website-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--light-blue) 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s;
+    box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+}
+
+.race-card.trail .race-website-btn {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--light-green) 100%);
+    box-shadow: 0 2px 8px rgba(5, 150, 105, 0.2);
+}
+
+.race-website-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+.race-card.trail .race-website-btn:hover {
+    box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
+.race-website-btn .btn-icon {
+    font-size: 18px;
+}
+
+.race-website-btn .btn-text {
     font-weight: 600;
 }
 

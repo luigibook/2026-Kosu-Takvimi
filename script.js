@@ -154,6 +154,17 @@ function createRaceCard(race) {
                       race.status === 'waitlist' ? '⏳ Bekleme Listesi' : 
                       '❌ Kayıtlar Kapandı';
     
+    // Website linki buton HTML'i
+    let websiteButtonHTML = '';
+    if (race.website) {
+        websiteButtonHTML = `
+            <a href="${race.website}" target="_blank" class="race-website-btn">
+                <span class="btn-icon">🌐</span>
+                <span class="btn-text">Resmi Website & Kayıt</span>
+            </a>
+        `;
+    }
+    
     const typeText = race.type === 'yol' ? '🛣️ Yol Koşusu' : '🌲 Trail';
     const typeBadgeClass = race.type;
     
@@ -193,6 +204,7 @@ function createRaceCard(race) {
                 ${statusText}
             </div>
             ${highlightsHTML}
+            ${websiteButtonHTML}
         </div>
     `;
     

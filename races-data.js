@@ -8,7 +8,8 @@ const racesData = [
         city: "Adana",
         distances: ["10K", "21K", "Halk Koşusu", "Çocuk Koşusu"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://apphurra.com/etkinlik/16inci-uluslararasi-adana-kurtulus-yari-maratonu"
     },
     {
         name: "Palandöken Run to Stars - Winter",
@@ -17,7 +18,8 @@ const racesData = [
         city: "Erzurum",
         distances: ["5K", "8K"],
         status: "open",
-        highlights: ["ITRA", "Kış Koşusu"]
+        highlights: ["ITRA", "Kış Koşusu"],
+        website: "https://www.runtostars.com/events/"
     },
     {
         name: "15. Uğur Mumcu Yol Koşusu",
@@ -26,7 +28,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["10K"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://www.teamkronos.com/ugur-mumcu-yol-kosusu"
     },
 
     // ŞUBAT 2026
@@ -37,7 +40,8 @@ const racesData = [
         city: "İzmir",
         distances: ["10K", "20K", "40K", "60K"],
         status: "open",
-        highlights: ["ITRA", "UTMB Index"]
+        highlights: ["ITRA", "UTMB Index"],
+        website: "https://nifultra.com/"
     },
     {
         name: "Geyik Koşuları",
@@ -46,7 +50,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["4K", "8K", "14K", "28K", "Bambi Koşuları", "6K Canicross"],
         status: "open",
-        highlights: ["Popüler"]
+        highlights: ["Popüler"],
+        website: "https://www.geyikkosulari.com/"
     },
     {
         name: "Bodrun Ultra Maratonu",
@@ -55,7 +60,8 @@ const racesData = [
         city: "Muğla",
         distances: ["5K", "10K", "22K", "34K", "60K", "Sevgililer Koşusu 5K"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://www.bodrun.org/"
     },
     {
         name: "46. Trabzon Yarı Maratonu",
@@ -64,7 +70,8 @@ const racesData = [
         city: "Trabzon",
         distances: ["4K", "10.5K", "21K", "Çocuk Koşusu"],
         status: "waitlist",
-        highlights: []
+        highlights: [],
+        website: "https://yarimaraton.trabzon.bel.tr/"
     },
     {
         name: "Winter Run Istanbul",
@@ -73,7 +80,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["5K", "10K"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://apphurra.com/etkinlik/winter-run-istanbul"
     },
 
     // MART 2026
@@ -84,7 +92,8 @@ const racesData = [
         city: "Antalya",
         distances: ["5K", "15K", "30K", "45K", "Çocuk Koşusu"],
         status: "open",
-        highlights: ["Yeni"]
+        highlights: ["Yeni"],
+        website: "https://heliz.life/event/heliz-kas-ultra-trail-2026"
     },
     {
         name: "Alanya Ultra Trail",
@@ -93,7 +102,8 @@ const racesData = [
         city: "Antalya",
         distances: ["5K", "18K", "27K", "42K", "69K"],
         status: "waitlist",
-        highlights: ["ITRA", "UTMB Index", "Popüler"]
+        highlights: ["ITRA", "UTMB Index", "Popüler"],
+        website: "https://alanyaultratrail.com/"
     },
     {
         name: "Efes Ultra Maratonu",
@@ -102,7 +112,8 @@ const racesData = [
         city: "İzmir",
         distances: ["6K", "12K", "27K", "42K", "61K", "120K"],
         status: "open",
-        highlights: ["Tarihi Rota"]
+        highlights: ["Tarihi Rota"],
+        website: "https://www.efesultra.org/"
     },
 
     // NİSAN 2026
@@ -113,7 +124,8 @@ const racesData = [
         city: "Antalya",
         distances: ["5K", "10K", "21K", "42K", "Minik Adımlar"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://tursetsports.com/races/runtalya"
     },
     {
         name: "Bosphorun Quarter Marathon - Caddebostan",
@@ -122,7 +134,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["10.5K"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://bosphorun.istanbul/"
     },
     {
         name: "İznik Ultra Maratonu",
@@ -131,7 +144,8 @@ const racesData = [
         city: "Bursa",
         distances: ["5K", "14K", "25K", "50K", "75K", "90K", "160K", "Çocuk Koşusu"],
         status: "open",
-        highlights: ["ITRA", "Popüler"]
+        highlights: ["ITRA", "Popüler"],
+        website: "https://www.iznikultra.com/"
     },
     {
         name: "Yesemek Ultra Trail",
@@ -140,7 +154,8 @@ const racesData = [
         city: "Gaziantep",
         distances: ["7K", "14K", "25K", "35K", "71K"],
         status: "open",
-        highlights: ["ITRA"]
+        highlights: ["ITRA"],
+        website: "https://www.yesemekultra.com/"
     },
     {
         name: "Adana Backyard Ultra",
@@ -149,7 +164,8 @@ const racesData = [
         city: "Adana",
         distances: ["6.706K x Sonsuz"],
         status: "open",
-        highlights: ["Backyard Format"]
+        highlights: ["Backyard Format"],
+        website: "https://www.adanabackyardultra.com/"
     },
     {
         name: "Intersport Mezopotamya Trail Run",
@@ -158,7 +174,8 @@ const racesData = [
         city: "Mardin",
         distances: ["5K", "15K", "40K", "90K"],
         status: "open",
-        highlights: ["Tarihi Rota"]
+        highlights: ["Tarihi Rota"],
+        website: "https://intersportmezopotamyatrail.com/"
     },
     {
         name: "Marmaris Ultra Trail",
@@ -167,7 +184,8 @@ const racesData = [
         city: "Muğla",
         distances: ["5K", "16K", "30K", "48K", "77K", "106K"],
         status: "open",
-        highlights: ["ITRA", "UTMB Index"]
+        highlights: ["ITRA", "UTMB Index"],
+        website: "https://marmarisultra.com/"
     },
     {
         name: "Türkiye İş Bankası 21. İstanbul Yarı Maratonu",
@@ -176,7 +194,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["10K", "21K"],
         status: "open",
-        highlights: ["Önemli Yarış", "Tarihi Yarımada"]
+        highlights: ["Önemli Yarış", "Tarihi Yarımada"],
+        website: "https://istanbulyarimaratonu.com/"
     },
     {
         name: "Bilkent Yol Koşusu",
@@ -185,7 +204,8 @@ const racesData = [
         city: "Ankara",
         distances: ["4.5K", "9K"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://runnroll.com.tr/bilkentyolkosusu/"
     },
     {
         name: "Eğirdir Ultra Trail",
@@ -194,7 +214,8 @@ const racesData = [
         city: "Isparta",
         distances: ["12K", "25K", "40K", "60K"],
         status: "open",
-        highlights: ["ITRA"]
+        highlights: ["ITRA"],
+        website: "https://egirdirultratrail.com/"
     },
     {
         name: "Babadağ Ultra Trail",
@@ -203,7 +224,8 @@ const racesData = [
         city: "Muğla",
         distances: ["5K", "14K", "15K", "26K", "30K", "56K"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://babadagultra.com/"
     },
     {
         name: "Troya Maratonu",
@@ -212,7 +234,8 @@ const racesData = [
         city: "Çanakkale",
         distances: ["6K", "10K", "21K", "42K", "Çocuk Koşusu"],
         status: "open",
-        highlights: ["Yeni Maraton Mesafesi"]
+        highlights: ["Yeni Maraton Mesafesi"],
+        website: "https://www.troyayarimaratonu.com/"
     },
 
     // MAYIS 2026
@@ -223,7 +246,8 @@ const racesData = [
         city: "Nevşehir",
         distances: ["5K", "10K", "19K", "30K", "47K"],
         status: "open",
-        highlights: ["Kapadokya"]
+        highlights: ["Kapadokya"],
+        website: "https://www.gomedaultratrail.com/"
     },
     {
         name: "Sagalassos Sky Ultra",
@@ -232,7 +256,8 @@ const racesData = [
         city: "Isparta",
         distances: ["2K", "5K", "17K", "26K", "42K"],
         status: "open",
-        highlights: ["ITRA", "UTMB Index", "Yeni Parkur"]
+        highlights: ["ITRA", "UTMB Index", "Yeni Parkur"],
+        website: "https://www.sagalassosultra.com/"
     },
     {
         name: "Aydos Ultra Trail Run",
@@ -241,7 +266,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["5K", "10K", "20K", "44K"],
         status: "open",
-        highlights: ["ITRA"]
+        highlights: ["ITRA"],
+        website: "https://www.aydosultra.com/"
     },
     {
         name: "Konya Yarı Maratonu",
@@ -250,7 +276,8 @@ const racesData = [
         city: "Konya",
         distances: ["5K", "10K", "21K"],
         status: "waitlist",
-        highlights: []
+        highlights: [],
+        website: "https://www.konyayarimaraton.com/"
     },
     {
         name: "İzmir Zaman Koşusu",
@@ -259,7 +286,8 @@ const racesData = [
         city: "İzmir",
         distances: ["1 Saat", "2 Saat", "4 Saat", "6 Saat"],
         status: "open",
-        highlights: ["Yeni", "Zaman Formatı"]
+        highlights: ["Yeni", "Zaman Formatı"],
+        website: "https://www.izmirultra.com/"
     },
     {
         name: "Salomon Çeşme Maratonu",
@@ -268,7 +296,8 @@ const racesData = [
         city: "İzmir",
         distances: ["10K", "21K", "42K"],
         status: "waitlist",
-        highlights: []
+        highlights: [],
+        website: "https://apphurra.com/etkinlik/salomon-cesme-maratonu"
     },
     {
         name: "Gebze Ultra Trail",
@@ -277,7 +306,8 @@ const racesData = [
         city: "Kocaeli",
         distances: ["Çeşitli kategoriler"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://apphurra.com/etkinlik/gebze-ultra-trail"
     },
 
     // HAZİRAN 2026
@@ -288,7 +318,8 @@ const racesData = [
         city: "Çanakkale",
         distances: ["Çeşitli kategoriler"],
         status: "waitlist",
-        highlights: ["ITRA", "Ada Koşusu"]
+        highlights: ["ITRA", "Ada Koşusu"],
+        website: "https://apphurra.com/etkinlik/gokceada-ultra-trail-run"
     },
     {
         name: "Sümela Ultra Trail",
@@ -297,7 +328,8 @@ const racesData = [
         city: "Trabzon",
         distances: ["Ultra kategoriler"],
         status: "waitlist",
-        highlights: ["Tarihi Rota"]
+        highlights: ["Tarihi Rota"],
+        website: "https://apphurra.com/etkinlik/sumela-ultra-trail"
     },
     {
         name: "Sapanca Ultra Maratonu",
@@ -306,7 +338,8 @@ const racesData = [
         city: "Sakarya",
         distances: ["10K", "21K", "42K", "Ultra"],
         status: "open",
-        highlights: []
+        highlights: [],
+        website: "https://apphurra.com/etkinlik/sapanca-ultra-maratonu"
     },
     {
         name: "Kanyon Ulubey Ultra Trail",
@@ -315,7 +348,8 @@ const racesData = [
         city: "Uşak",
         distances: ["Ultra kategoriler"],
         status: "open",
-        highlights: ["Kanyon Manzarası"]
+        highlights: ["Kanyon Manzarası"],
+        website: "https://apphurra.com/etkinlik/kanyon-ulubey-ultra-trail"
     },
 
     // TEMMUZ 2026
@@ -326,7 +360,8 @@ const racesData = [
         city: "Bursa",
         distances: ["Ultra kategoriler"],
         status: "open",
-        highlights: ["ITRA", "Prestijli"]
+        highlights: ["ITRA", "Prestijli"],
+        website: "https://apphurra.com/etkinlik/uludag-premium-ultra-trail"
     },
 
     // AĞUSTOS 2026
@@ -337,7 +372,8 @@ const racesData = [
         city: "Aksaray",
         distances: ["Ultra kategoriler"],
         status: "open",
-        highlights: ["ITRA", "Tuz Gölü"]
+        highlights: ["ITRA", "Tuz Gölü"],
+        website: "https://apphurra.com/etkinlik/runfire-salt-lake-ultra-trail"
     },
     {
         name: "Merrell Belgrad Ultra Trail",
@@ -346,7 +382,8 @@ const racesData = [
         city: "İstanbul",
         distances: ["5K", "15K", "30K", "60K"],
         status: "open",
-        highlights: ["Festival Formatı", "Büyük Etkinlik"]
+        highlights: ["Festival Formatı", "Büyük Etkinlik"],
+        website: "https://www.instagram.com/belgradultra/"
     },
 
     // EKİM 2026
@@ -357,7 +394,8 @@ const racesData = [
         city: "Muğla",
         distances: ["10K", "21K"],
         status: "waitlist",
-        highlights: []
+        highlights: [],
+        website: "https://apphurra.com/etkinlik/bodrum-yari-maratonu"
     },
     {
         name: "Salomon Cappadocia Ultra Trail",
@@ -366,7 +404,8 @@ const racesData = [
         city: "Nevşehir",
         distances: ["20K", "38K", "63K", "119K"],
         status: "open",
-        highlights: ["ITRA", "UTMB World Series", "UNESCO", "En Büyük Trail"]
+        highlights: ["ITRA", "UTMB World Series", "UNESCO", "En Büyük Trail"],
+        website: "https://cappadociaultratrail.com/en"
     },
 
     // KASIM 2026
@@ -377,6 +416,7 @@ const racesData = [
         city: "İstanbul",
         distances: ["15.5K", "42K"],
         status: "open",
-        highlights: ["Kıtalararası Maraton", "Önemli Yarış"]
+        highlights: ["Kıtalararası Maraton", "Önemli Yarış"],
+        website: "https://maraton.istanbul/"
     }
 ];
